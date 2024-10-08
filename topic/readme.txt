@@ -83,6 +83,10 @@ Don’t hesitate to reach out at support@raptive.com or the [support portal](htt
 2. Get feedback on any gaps in your topical coverage.
 
 == Changelog ==
+= 1.0.30 =
+Release Date: SEP 30, 2024
+Fix Bugs & Better Tracking
+
 = 1.0.29 =
 Release Date: SEP 25, 2024
 Cache Busting Mechanism
