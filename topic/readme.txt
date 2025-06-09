@@ -83,12 +83,8 @@ Don’t hesitate to reach out at support@raptive.com or the [support portal](htt
 2. Get feedback on any gaps in your topical coverage.
 
 == Changelog ==
-= 1.0.33 =
+= 1.0.34 =
 Release Date: JUN 09, 2025
-Bug Fix for Block Editor 
-
-= 1.0.32 =
-Release Date: JUN 03, 2025
 Bug Fix for Block Editor 
 
 = 1.0.31 =
