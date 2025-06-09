@@ -6,7 +6,7 @@
   * Author: Topic
   * License: GPL v2 or later
   * License URI: https://www.gnu.org/licenses/gpl-2.0.html
-  * Version: 1.0.31
+  * Version: 1.0.32
   */ 
 if( ! defined( 'ABSPATH') ) {
     exit;
