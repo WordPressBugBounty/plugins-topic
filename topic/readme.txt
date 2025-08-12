@@ -83,7 +83,7 @@ Don’t hesitate to reach out at support@raptive.com or the [support portal](htt
 2. Get feedback on any gaps in your topical coverage.
 
 == Changelog ==
-= 1.0.35 =
+= 1.0.36 =
 Release Date: JUL 25, 2025
 Better Tracking 
 
