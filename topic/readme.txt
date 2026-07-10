@@ -63,7 +63,7 @@ Alternatively, your team members can click "Load Brief" and paste the URL of any
 
 = Can I try it for free? =
 
-Yes, give it a try on a sample brief, just click "Load Brief" and paste in the following URL: https://app.usetopic.com/briefs/0231ed19/overview
+Yes, give it a try on a sample brief, just click "Load Brief" and paste in the following URL: https://dashboard.usetopic.com/briefs/0231ed19/overview
 
 = How do I unlock all of the plugin's capabilities? =
 
@@ -83,6 +83,10 @@ Don’t hesitate to reach out at support@raptive.com or the [support portal](htt
 2. Get feedback on any gaps in your topical coverage.
 
 == Changelog ==
+= 1.0.42 =
+Release Date: JUL 10, 2026
+Updated Topic dashboard URLs
+
 = 1.0.41 =
 Release Date: MAY 28, 2026
 Bug Fixes
@@ -105,11 +109,11 @@ Bug Fixes
 
 = 1.0.36 =
 Release Date: JUL 25, 2025
-Better Tracking 
+Better Tracking
 
 = 1.0.34 =
 Release Date: JUN 09, 2025
-Bug Fix for Block Editor 
+Bug Fix for Block Editor
 
 = 1.0.31 =
 Release Date: SEP 30, 2024
@@ -125,7 +129,7 @@ Cache Busting Mechanism
 
 = 1.0.28 =
 Release Date: SEP 12, 2024
-Fix intial load bug for WP classic editor 
+Fix intial load bug for WP classic editor
 
 = 1.0.27 =
 Release Date: AUG 27, 2024

@@ -1,4 +1,4 @@
-<?php 
+<?php
 if( ! defined( 'ABSPATH') ) {
     exit;
 }
@@ -10,7 +10,7 @@ if( ! defined( 'ABSPATH') ) {
 class UseTopicAPI {
 
     // url to usetopic api
-    protected $apiUrl = 'https://app.usetopic.com/api/';
+    protected $apiUrl = 'https://dashboard.usetopic.com/api/';
     protected $username;
 	protected $password;
 	protected $token;
@@ -109,7 +109,7 @@ class UseTopicAPI {
 
 			curl_close($curl);
 			return $response;
-	}	
+	}
 	private function useTopicBriefDetailCurl( $briefid, $token ){
 
 			$curl = curl_init();
@@ -132,7 +132,7 @@ class UseTopicAPI {
 
 			curl_close($curl);
 			return $response;
-	}	
+	}
 	private function useTopicBriefDetailURLCurl( $briefid ){
 
 			$curl = curl_init();
@@ -153,7 +153,7 @@ class UseTopicAPI {
 
 			curl_close($curl);
 			return $response;
-	}	
+	}
 
 	private function getBriefUpdatedReportCurl( $briefid, $token, $content){
 		//return json_encode(array($briefid, $token, $content));
@@ -209,7 +209,7 @@ class UseTopicAPI {
 		if(empty($search)){
 			$utAPIurl = $this->apiUrl.'keyword_reports/';
 		}else{
-			$utAPIurl = $this->apiUrl.'keyword_reports?filters=filter%5BBuser_id%5DD=all&filter%5Bsearch%5D='.$search; 
+			$utAPIurl = $this->apiUrl.'keyword_reports?filters=filter%5BBuser_id%5DD=all&filter%5Bsearch%5D='.$search;
 		}
 		$curl = curl_init();
 
