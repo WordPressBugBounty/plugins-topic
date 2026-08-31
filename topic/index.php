@@ -6,7 +6,7 @@
  * Author: Topic
  * License: GPL v2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * Version: 1.0.42
+ * Version: 1.0.43
  */
 if (!defined('ABSPATH')) {
 	exit;
@@ -87,6 +87,7 @@ class useTopicSeo
 			array('wp-plugins', 'wp-edit-post', 'wp-i18n', 'wp-element'),
 			null
 		);
+		$this->add_runtime_config('topic-gutenberg-sidebar');
 		wp_enqueue_style('topic-sidebar-global', plugins_url('build/index.css', __FILE__), array(), 'all');
 	}
 
@@ -102,8 +103,17 @@ class useTopicSeo
 			array('wp-plugins'),
 			null
 		);
+		$this->add_runtime_config('topic-gutenberg-sidebar-classic');
 		wp_enqueue_style('topic-classic-sidebar', plugins_url('classic-editor/classic.css', __FILE__), array(), 'all');
 		wp_enqueue_style('topic-sidebar-global', plugins_url('build/index.css', __FILE__), array(), 'all');
+	}
+
+	private function add_runtime_config($handle)
+	{
+		$config = array(
+			'disableTelemetry' => getenv('TOPIC_DISABLE_TELEMETRY') === '1'
+		);
+		wp_add_inline_script($handle, 'window.topicPluginConfig = ' . wp_json_encode($config) . ';', 'before');
 	}
 
 	public function useTopicSeo_sidebar_box($data)

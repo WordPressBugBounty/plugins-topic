@@ -2,9 +2,9 @@
 Contributors: usetopic
 Tags: content research, readability, seo, content analysis
 Requires at least: 5.0
-Tested up to: 6.6
+Tested up to: 7.1
 Requires PHP: 5.4
-Stable tag: trunk
+Stable tag: 1.0.43
 License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -83,6 +83,12 @@ Don’t hesitate to reach out at support@raptive.com or the [support portal](htt
 2. Get feedback on any gaps in your topical coverage.
 
 == Changelog ==
+= 1.0.43 =
+Release Date: AUG 26, 2026
+Improved Classic Editor grading, including empty-content handling and clearer feedback when grading is unavailable.
+Fixed reading content from the wrong iframe when grading in the Gutenberg editor, including nested blocks.
+Stopped grading after a brief refresh fails to prevent stale or invalid results.
+
 = 1.0.42 =
 Release Date: JUL 10, 2026
 Updated Topic dashboard URLs
